@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="container">
+<body>
 
     @yield("content")
 

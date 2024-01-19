@@ -3,18 +3,18 @@
     width: 5rem;
 }
 
-a {
+.a-link {
     font-size: small;
     text-decoration: none;
     font-weight: bold;
     color: dimgray;
 }
 
-a::after {
+.a-link::after {
     border-bottom: 1px solid;
 }
 
-a:hover {
+.a-link:hover {
     color: #3980f1;
 }
 
@@ -23,4 +23,132 @@ a:hover {
     background-image: url(/images/jumbotron.jpg);
     background-size: cover;
     height: 25rem;
+}
+
+/* body */
+.content {
+    background-color: #1c1c1c;
+}
+
+.content a {
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: lightgray;
+}
+
+.load {
+    padding: 1rem 4rem;
+    background-color: #3776e2;
+    font-weight: bold;
+}
+
+.load:hover {
+    color: #3776e2;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.series {
+    padding: 1rem 2rem;
+    background-color: #3776e2;
+    font-weight: 600;
+    font-size: x-large;
+
+    position: absolute;
+    top: -2rem;
+    left: -1rem;
+}
+
+.series:hover {
+    color: #3776e2;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* card */
+.dcCard {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% / 4);
+}
+
+.fumetto-img {
+    width: 12rem;
+    height: 15rem;
+}
+
+div a {
+    font-size: small;
+    font-weight: 500;
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* footer top */
+.footer-top {
+    background-color: #3980f1;
+}
+
+.img-ft {
+    width: 3rem;
+}
+
+.a-ft {
+    text-decoration: none;
+    color: white;
+}
+
+/* footer middle */
+.footer-middle {
+    background-image: url(/images/footer-bg.jpg);
+}
+
+.bgImg {
+    width: 80%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/dc-logo-bg.png);
+}
+
+.span-fm {
+    font-weight: bolder;
+}
+
+li {
+    list-style: none;
+}
+
+.a-fm {
+    text-decoration: none;
+    color: gray;
+    font-size: small;
+}
+
+.a-fm:hover {
+    color: white;
+}
+
+/* footer-bottom */
+.footer-bottom {
+    background-color: #303030;
+}
+
+.a-fb {
+    text-decoration: none;
+    padding: 1rem;
+    border: 2px solid #3776e2;
+    font-weight: bolder;
+}
+
+.a-fb:hover {
+    color: black;
+    border-color: white;
+    background-color: #3776e2;
+}
+
+.span-fb {
+    color: #3776e2;
+    font-weight: bolder;
+    transition: 0.4s;
 }

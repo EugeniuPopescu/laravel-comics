@@ -45,7 +45,7 @@ return [
     ],
     "fumetti" => [
         [
-            "title" => "Action Comics #1000: The Deluxe Edition",
+            "title" => "Action Comics",
             "description" => "The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!",
             "thumb" => "https://www.coverbrowser.com/image/action-comics/1-1.jpg",
             "price" => "$19.99",
@@ -153,4 +153,128 @@ return [
             "type" => "graphic novel",
         ]
     ],
+    "cards" => [
+        [
+            "img" => "/images/buy-comics-digital-comics.png",
+            "text" => "digital comics",
+        ],
+        [
+            "img" => "/images/buy-comics-merchandise.png",
+            "text" => "dc merchandise",
+        ],
+        [
+            "img" => "/images/buy-comics-subscriptions.png",
+            "text" => "subscription",
+        ],
+        [
+            "img" => "/images/buy-comics-shop-locator.png",
+            "text" => "comic shop locator",
+        ],
+        [
+            "img" => "/images/buy-dc-power-visa.svg",
+            "text" => "dc power visa",
+        ],
+    ],
+    "comics" => [
+        [
+            "text" => "Characters",
+        ],
+        [
+            "text" => "Comics",
+        ],
+        [
+            "text" => "Movies",
+        ],
+        [
+            "text" => "TV",
+        ],
+        [
+            "text" => "Games",
+        ],
+        [
+            "text" => "Videos",
+        ],
+        [
+            "text" => "News",
+        ]
+    ],
+    "shops" => [
+        [
+            "text" => "Characters",
+        ],
+        [
+            "text" => "Comics",
+        ],
+
+    ],
+    "dcs" => [
+        [
+            "text" => "Terms Of Use",
+        ],
+        [
+            "text" => "Privacy policy (New)",
+        ],
+        [
+            "text" => "Ad Choices",
+        ],
+        [
+            "text" => "Advertising",
+        ],
+        [
+            "text" => "Jobs",
+        ],
+        [
+            "text" => "Subscriptions",
+        ],
+        [
+            "text" => "Talent Workshop",
+        ],
+        [
+            "text" => "CPSC Certificates",
+        ],
+        [
+            "text" => "Ratings",
+        ],
+        [
+            "text" => "Shop Help",
+        ],
+        [
+            "text" => "Contact Us",
+        ]
+    ],
+    "sites" => [
+        [
+            "text" => "DC",
+        ],
+        [
+            "text" => "MAD Magazine",
+        ],
+        [
+            "text" => "DC Kids",
+        ],
+        [
+            "text" => "DC Universe",
+        ],
+        [
+            "text" => "DC Power Visa",
+        ]
+    ],
+    "imags" => [
+        [
+            "img" => "/images/footer-facebook.png",
+        ],
+        [
+            "img" => "/images/footer-twitter.png",
+        ],
+        [
+            "img" => "/images/footer-youtube.png",
+        ],
+        [
+            "img" => "/images/footer-pinterest.png",
+        ],
+        [
+            "img" => "/images/footer-periscope.png",
+        ],
+    ]
+
 ];

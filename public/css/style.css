@@ -1,0 +1,25 @@
+/* header */
+.logo {
+    width: 5rem;
+}
+
+a {
+    font-size: small;
+    text-decoration: none;
+    font-weight: bold;
+    color: dimgray;
+}
+
+a::after {
+    border-bottom: 1px solid;
+}
+
+a:hover {
+    color: #3980f1;
+}
+
+.bg {
+    background-image: url(/assets/banner-bg.png) no-repeat bottom center;
+    background-size: cover;
+    position: relative;
+}

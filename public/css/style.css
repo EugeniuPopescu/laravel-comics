@@ -68,14 +68,16 @@
 
 /* card */
 .dcCard {
-    display: flex;
-    flex-wrap: wrap;
-    width: calc(100% / 4);
+    width: 100%;
+}
+
+.text {
+    width: 50%;
 }
 
 .fumetto-img {
-    width: 12rem;
-    height: 15rem;
+    width: 9rem;
+    height: 12rem;
 }
 
 div a {

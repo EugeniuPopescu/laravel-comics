@@ -23,7 +23,7 @@
 
 <body>
     <div class="content">
-        <div class=" container position-relative">
+        <div class="container position-relative">
             <!-- btn load more -->
             <div class="pb-5">
                 <a class="series">CURRENT SERIES</a>
@@ -31,18 +31,15 @@
             
     
             <!-- card render -->
-            <div class="justify-content-between align-items-center dcCard">
-                <!-- card render -->
+            <div class="d-flex flex-wrap">
                 @foreach ($fumetti as $fumetto)
-                    <div class="d-flex flex-column my-4">
+                    <div class="d-flex flex-column">
                         <img class="fumetto-img" src="{{ $fumetto["thumb"] }}" alt="">
-                        <a class="pt-2">{{ strtoupper($fumetto["title"]) }}</a>
+                        <a class="pt-2 text">{{ strtoupper($fumetto["title"]) }}</a>
                     </div>
                 @endforeach
-                
             </div>
-            
-    
+
             <!-- btn load more -->
             <div class="d-flex justify-content-center py-5">
                 <div>
